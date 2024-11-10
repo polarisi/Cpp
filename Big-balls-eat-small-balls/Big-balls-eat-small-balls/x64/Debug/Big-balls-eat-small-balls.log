@@ -1,0 +1,13 @@
+﻿  ball.cpp
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(104,54): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(104,40): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(104,26): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(117,44): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(117,33): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(117,22): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(122,39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(122,23): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(173,22): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(220,23): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\Big-balls-eat-small-balls\ball.cpp(221,23): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+  Big-balls-eat-small-balls.vcxproj -> D:\Visual_Studio_2022_code\Big-balls-eat-small-balls\x64\Debug\Big-balls-eat-small-balls.exe
