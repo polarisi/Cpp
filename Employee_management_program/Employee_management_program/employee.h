@@ -6,6 +6,7 @@
 
 using namespace std;
 
+//‘±π§¿‡
 class Employee :public Worker
 {
 public:

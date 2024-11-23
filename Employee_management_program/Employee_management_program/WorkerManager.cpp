@@ -27,6 +27,7 @@ void WorkerManager::ExitSystem()
 	system("pause");
 	exit(0);
 }
+
 WorkerManager::WorkerManager()
 {
 	////≥ı ºªØ Ù–‘

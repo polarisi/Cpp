@@ -6,7 +6,7 @@ using namespace std;
 
 #include "Worker.h"
 
-//经理类
+//老板类
 class Boss :public Worker
 {
 public:
