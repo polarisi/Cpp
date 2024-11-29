@@ -1,0 +1,7 @@
+﻿  05map容器排序.cpp
+  06案例-员工分组.cpp
+D:\Visual_Studio_2022_code\map容器\map容器\06案例-员工分组.cpp(66,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Visual_Studio_2022_code\map容器\map容器\06案例-员工分组.cpp(84,18): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Visual_Studio_2022_code\map容器\map容器\06案例-员工分组.cpp(96,18): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  map容器.vcxproj -> D:\Visual_Studio_2022_code\map容器\x64\Debug\map容器.exe
