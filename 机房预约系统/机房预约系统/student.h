@@ -1,9 +1,13 @@
 #pragma once
 #include <iostream>
 using namespace std;
-
+#include <string>
+#include <vector>
+#include <fstream>
 #include "Identity.h"
-
+#include "computerRoom.h"
+#include "globalFile.h"
+#include "orderFile.h"
 //学生类
 class Student :public Identity
 {
@@ -24,4 +28,6 @@ public:
 	void cancelOrder();
 	//学生学号
 	int m_Id;
+	//机房容器
+	vector<ComputerRoom> vCom;
 };

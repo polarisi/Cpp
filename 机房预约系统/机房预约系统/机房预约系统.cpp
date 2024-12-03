@@ -8,6 +8,81 @@ using namespace std;
 #include "Identity.h"
 #include <fstream>
 
+
+//学生菜单
+void studentMenu(Identity*& student)
+{
+	while (true)
+	{
+		//调用学生子菜单
+		student->openMenu();
+
+		Student* stu = (Student*)student;
+
+		int select = 0;
+		cin >> select; //接受用户选择  
+		if (select  == 1)//申请预约
+		{
+			stu->applyOrder();
+		}
+		else if (select == 2)//查看自身预约
+		{
+			stu->showMyOrder();
+		}
+		else if (select == 3)//查看所有人预约
+		{
+			stu->showAllOrder();
+		}
+		else if (select == 4)//取消 预约
+		{
+			stu->cancelOrder();
+		}
+		else//注销登录
+		{
+			delete student;//销毁掉堆区的对象
+			cout << "注销成功" << endl;
+			system("pause");
+			system("cls");
+			return;
+		}
+
+	}
+}
+
+//教师菜单
+void TeacherMenu(Identity*& teacher)
+{
+	while (true)
+	{
+		//调用学生子菜单
+		teacher->openMenu();
+
+		Teacher* tea = (Teacher*)teacher;
+
+		int select = 0;
+		cin >> select; //接受用户选择
+
+		if (select == 1)//查看所有预约
+		{
+			tea->showAllOrder();
+		}
+		else if (select == 2)//审核预约
+		{
+			tea->validOrder();
+		}
+		else//注销登录
+		{
+			delete teacher;//销毁掉堆区的对象
+			cout << "注销成功" << endl;
+			system("pause");
+			system("cls");
+			return;
+		}
+
+	}
+}
+
+
 //进入管理员的子菜单页面
 void managerMenu(Identity * &manager)
 {
@@ -107,8 +182,8 @@ void LoginIn(string fileName, int type)
 				system("pause");
 				system("cls");
 				person = new Student(id, name, pwd);
-				//进入教师身份的子菜单
-
+				//进入学生身份的子菜单
+				studentMenu(person);
 				return;
 			}
 		}
@@ -130,7 +205,7 @@ void LoginIn(string fileName, int type)
 				system("cls");
 				person = new Teacher(id, name, pwd);
 				//进入教师身份的子菜单
-
+				TeacherMenu(person);
 				return;
 			}
 		}
@@ -165,6 +240,7 @@ void LoginIn(string fileName, int type)
 
 
 }
+
 
 int main()
 {

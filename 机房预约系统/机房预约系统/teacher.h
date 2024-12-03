@@ -3,7 +3,10 @@
 using namespace std;
 
 #include "Identity.h"
-
+#include "computerRoom.h"
+#include "globalFile.h"
+#include "orderFile.h"
+#include "student.h"
 class Teacher :public Identity
 {
 public:
